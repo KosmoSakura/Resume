@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Convenient Resume</string>
+    <string name="action_settings">settings</string>
+    <string name="title">Convenient welcome to resume the system !!</string>
+    <string name="titleRegister">Convenient register welcome to resume the system !!</string>
+    <string name="ResumeDetails">ResumeDetails</string>
+    <string name="user_name">user name</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="password">password</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="log_in_style">log in style</string>
+    <string name="hiding">hiding</string>
+    <string name="online">online</string>
+    <string name="keepPassword">keep password</string>
+    <string name="AutoLogIn">AutoLogIn</string>
+    <string name="register">register</string>
+    <string name="log_in">log in</string>
+    <string name="countersignPassword">countersign password</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">submit</string>
+    <string name="name">name</string>
+    <string name="birthday">birthday</string>
+    <string name="Degree">degree</string>
+    <string name="major">major</string>
+    <string name="school">school</string>
+    <string name="salary">salary</string>
+    <string name="sex">sex</string>
+    <string name="male">male</string>
+    <string name="famale">famale</string>
+    <string name="ProjectEexperience">Project Eexperience</string>
+    <string name="forgo">forgo</string>
+    <string name="save">save</string>
+    
+
+</resources>

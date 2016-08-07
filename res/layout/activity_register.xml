@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/R_tvtitleRegister"
+        style="@style/Zull"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1sp"
+        android:text="@string/titleRegister"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/R_tvname"
+        style="@style/Zull"
+        android:layout_below="@id/R_tvtitleRegister"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/user_name" />
+
+    <EditText
+        android:id="@+id/R_editUserName"
+        style="@style/Zull"
+        android:layout_width="match_parent"
+        android:layout_alignBaseline="@id/tvname"
+        android:layout_below="@id/R_tvtitleRegister"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/R_tvname"
+        android:hint="@string/hint_name"
+        android:textColor="#FF9900"
+        android:textColorHint="#CC3300" />
+
+    <TextView
+        android:id="@+id/R_tvPassWord"
+        style="@style/Zull"
+        android:layout_below="@id/R_editUserName"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/R_editpassword"
+        style="@style/Zull"
+        android:layout_width="match_parent"
+        android:layout_alignBaseline="@id/tvpassword"
+        android:layout_below="@id/R_editUserName"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/R_tvPassWord"
+        android:hint="@string/hint_password"
+        android:textColor="#FF9900"
+        android:textColorHint="#CC3300" />
+    <TextView
+        android:id="@+id/R_tv_countersignPassword"
+        style="@style/Zull"
+        android:layout_below="@id/R_editpassword"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/countersignPassword" />
+
+    <EditText
+        android:id="@+id/R_et_countersignPassword"
+        style="@style/Zull"
+        android:layout_width="match_parent"
+        android:layout_alignBaseline="@id/R_tv_countersignPassword"
+        android:layout_below="@id/R_editpassword"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/R_tv_countersignPassword"
+        android:hint="@string/hint_password"
+        android:textColor="#FF9900"
+        android:textColorHint="#CC3300" />
+
+    
+    
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_et_countersignPassword"
+        android:orientation="horizontal"
+        >
+        <Button 
+        android:id="@+id/R_btn_cancel"
+        style="@style/Zull"
+        android:layout_width="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:text="@string/cancel"
+        android:onClick="myclick"
+        />
+    <Button 
+        android:id="@+id/R_btn_submit"
+        style="@style/Zull"
+        android:layout_width="150dp"
+       
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/R_btn_cancel"
+        android:text="@string/submit"
+        android:onClick="myclick"
+        />
+    </LinearLayout>
+</RelativeLayout>

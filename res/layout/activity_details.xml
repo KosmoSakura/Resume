@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/D_tvTitle"
+        style="@style/Zull"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/ResumeDetails"
+        android:textSize="25dp" />
+
+    <ScrollView style="@style/Zull" >
+
+        <LinearLayout
+            style="@style/Zull"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/Zull"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Zull"
+                    android:text="@string/name" />
+
+                <EditText
+                    android:id="@+id/D_etName"
+                    style="@style/Zull"
+                    android:layout_width="280dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Zull"
+                    android:text="@string/birthday" />
+
+                <EditText
+                    android:id="@+id/D_etBirthday"
+                    style="@style/Zull"
+                    android:layout_width="280dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Zull"
+                    android:text="@string/Degree" />
+
+                <EditText
+                    android:id="@+id/D_etDegree"
+                    style="@style/Zull"
+                    android:layout_width="280dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Zull"
+                    android:text="@string/major" />
+
+                <EditText
+                    android:id="@+id/D_etmajor"
+                    style="@style/Zull"
+                    android:layout_width="280dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Zull"
+                    android:text="@string/school" />
+
+                <EditText
+                    android:id="@+id/D_etschool"
+                    style="@style/Zull"
+                    android:layout_width="280dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Zull"
+                    android:text="@string/salary" />
+
+                <EditText
+                    android:id="@+id/D_etsalary"
+                    style="@style/Zull"
+                    android:layout_width="280dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" 
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView 
+                    style="@style/Zull" 
+                    android:text="@string/sex"/>
+                <RadioGroup 
+                    android:id="@+id/D_rg_sex"
+                    style="@style/Zull"
+                    android:orientation="horizontal">
+                    <RadioButton 
+                        android:id="@+id/rb1"
+                        style="@style/Zull"
+                        android:text="@string/male"/>
+                    <RadioButton 
+                        android:id="@+id/rb2"
+                        style="@style/Zull"
+                        android:text="@string/famale"/>
+                </RadioGroup>
+            </LinearLayout>
+            
+            <TextView 
+                style="@style/Zull"
+                android:text="@string/ProjectEexperience"/>
+            <EditText 
+                android:id="@+id/D_et_Project"
+                android:textColor="#009900"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            
+            
+            <LinearLayout
+                style="@style/Zull"
+                android:orientation="horizontal" >
+                <Button 
+                    android:id="@+id/D_btn_forgo"
+                    style="@style/Zull"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    android:text="@string/forgo"
+                    android:onClick="myclick"/>
+                <Button 
+                    android:id="@+id/D_btn_save"
+                    style="@style/Zull"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    android:text="@string/save"
+                    android:onClick="myclick"/>
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
